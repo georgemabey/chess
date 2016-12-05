@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
-  def home
+  def pre_game
   end
 
-  def gamePage
+  def active_game
   end
 end

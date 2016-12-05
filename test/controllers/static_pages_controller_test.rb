@@ -1,13 +1,13 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get home" do
-    get static_pages_home_url
+  test "should get pre_game" do
+    get static_pages_pre_game_url
     assert_response :success
   end
 
-  test "should get gamePage" do
-    get static_pages_gamePage_url
+  test "should get active_game" do
+    get static_pages_active_game_url
     assert_response :success
   end
 
