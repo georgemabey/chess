@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  board: 
+  black_player: MyString
+  white_player: MyString
+  state: MyString
+
+two:
+  board: 
+  black_player: MyString
+  white_player: MyString
+  state: MyString

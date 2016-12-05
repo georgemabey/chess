@@ -1,2 +1,14 @@
 <h1>StaticPages#pre_game</h1>
-<p>Find me in app/views/static_pages/pre_game.html.erb</p>
+
+  <div class="col-md-6 col-md-offset-3">
+	<%= form_for(:chess_game) do |f| %>
+		<%= f.label :white_player %>
+		<%= f.email_field :white_player, class: 'form-control' %>
+
+		<%= f.label :black_player %>
+		<%= f.password_field :black_player, class: 'form-control' %>
+
+		<%= f.submit "Start Game", class: "btn btn-primary" %>
+	<% end %>
+
+  <% end %>
